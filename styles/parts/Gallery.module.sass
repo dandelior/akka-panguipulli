@@ -1,0 +1,185 @@
+@import ../colors
+
+.gallery
+    background-color: $lightGray
+    padding: 
+        top: 46px
+        bottom: 44px
+    scroll-margin-top: 80px
+
+@media (min-width: 1024px)
+    .gallery
+        padding: 
+            top: 56px
+            bottom: 52px
+
+.galleryInner
+    padding-left: 0 !important
+    padding-right: 0 !important
+
+@media (min-width: 768px)
+    .galleryInner
+        padding-left: 0 !important
+        padding-right: 0 !important
+
+@media (min-width: 1024px)
+    .galleryInner
+        padding-left: 0 !important
+
+@media (min-width: 1280px)
+    .galleryInner
+        // padding-left: 5.8vw
+        // padding-left: 5.7%
+        margin-right: 0
+        left: 0 !important
+        right: 0 !important
+        // max-width: 94.1% !important
+        max-width: 100% !important
+        // padding-left: 5.9%
+
+@media (min-width: 1440px)
+    .galleryInner
+        // padding-left: 7%
+
+@media (min-width: 1680px)
+    .galleryInner
+        // padding-left: 13.5%
+
+.galleryHeader
+    padding-left: 26px
+    h2
+        color: $lightGreen
+        margin-bottom: 20px
+
+@media (min-width: 768px)
+    .galleryHeader
+        padding-left: 32px
+
+@media (min-width: 1024px)
+    .galleryHeader
+        padding-left: 46px
+
+@media (min-width: 1280px)
+    .galleryHeader
+        padding-left: 5.9%
+        h2
+            margin-bottom: 28px
+
+@media (min-width: 1440px)
+    .galleryHeader
+        padding-left: 7%
+
+@media (min-width: 1680px)
+    .galleryHeader
+        padding-left: 13.5%
+
+.galleryContent
+    position: relative
+    overflow-y: hidden
+    overflow-x: auto
+    scroll-snap-type: x mandatory
+    width: 100%
+    height: 85vw
+    -webkit-overflow-scrolling: touch
+    margin-bottom: 20px
+    &::-webkit-scrollbar
+        display: none
+    .galleryContentInner
+        padding-left: 26px
+        padding-right: 26px
+        width: 360vw
+        scroll-snap-align: start
+        // display: grid
+        display: flex
+        gap: 22px
+        // grid-template-columns: repeat(4, 1fr)
+        // grid-gap: 12px
+        position: absolute
+        top: 0
+        left: 0
+
+@media (min-width: 768px)
+    .galleryContent
+        height: 47vw
+        .galleryContentInner
+            padding-left: 32px
+            padding-right: 32px
+            width: 200vw
+
+@media (min-width: 1024px)
+    .galleryContent
+        height: 35vw
+        .galleryContentInner
+            padding-left: 46px
+            padding-right: 46px
+            width: 155vw
+
+@media (min-width: 1280px)
+    .galleryContent
+        height: 30vw
+        margin-bottom: 24px
+        .galleryContentInner
+            padding-left: 5.9% !important
+            padding-right: 5.9% !important
+            width: 135vw
+
+@media (min-width: 1440px)
+    .galleryContent
+        height: 30vw
+        .galleryContentInner
+            padding-left: 7% !important
+            padding-right: 7% !important
+
+@media (min-width: 1680px)
+    .galleryContent
+        .galleryContentInner
+            padding-left: 13.5% !important
+            padding-right: 13.5% !important
+
+.galleryItem
+    width: 100%
+    height: 85vw
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    cursor: pointer
+
+@media (min-width: 768px)
+    .galleryItem
+        height: 47vw
+
+@media (min-width: 1024px)
+    .galleryItem
+        height: 35vw
+
+@media (min-width: 1280px)
+    .galleryItem
+        height: 30vw
+
+@media (min-width: 1440px)
+    .galleryItem
+        height: 30vw
+
+p.galleryCredits
+    color: black
+    padding-left: 26px
+
+@media (min-width: 768px)
+    p.galleryCredits
+        padding-left: 32px
+
+@media (min-width: 1024px)
+    p.galleryCredits
+        padding-left: 46px
+
+@media (min-width: 1280px)
+    p.galleryCredits
+        padding-left: 5.9%
+
+@media (min-width: 1440px)
+    p.galleryCredits
+        padding-left: 7%
+
+@media (min-width: 1680px)
+    p.galleryCredits
+        padding-left: 13.5%

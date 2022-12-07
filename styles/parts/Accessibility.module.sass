@@ -1,0 +1,77 @@
+@import ../colors
+
+.accessibility
+    background-color: $lightGray
+    scroll-margin-top: 80px
+
+.accessibilityInner
+    color: black
+    text-align: center
+    padding: 
+        top: 66px
+        bottom: 64px
+
+@media (min-width: 768px)
+    .accessibilityInner
+        padding:
+            top: 78px
+            bottom: 72px
+
+@media (min-width: 1024px)
+    .accessibilityInner
+        max-width: 900px
+        padding:
+            top: 82px
+            bottom: 80px
+
+@media (min-width: 1280px)
+    .accessibilityInner
+        max-width: 1000px
+        // padding:
+        //     top: 82px
+        //     bottom: 80px
+
+.accessibilityHeader
+    h2
+        margin: 
+            left: auto
+            right: auto
+        max-width: 19ch
+        color: $lightGreen
+        margin:
+            bottom: 30px
+
+@media (min-width: 768px)
+    .accessibilityHeader
+        h2
+            margin:
+                bottom: 34px
+
+.accessibilityContent
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 28px
+
+@media (min-width: 768px)
+    .accessibilityContent
+        gap: 32px
+
+@media (min-width: 1024px)
+    .accessibilityContent
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-gap: 0 40px
+
+@media (min-width: 1280px)
+    .accessibilityContent
+        // display: grid
+        // grid-template-columns: repeat(3, 1fr)
+        grid-gap: 0 80px
+
+.item
+    img
+        margin-bottom: 16px
+    h4
+        margin-bottom: 10px
+    p

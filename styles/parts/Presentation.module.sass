@@ -1,0 +1,91 @@
+.presentation
+    width: 100%
+    min-height: 100vh
+    background-color: green
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    .video
+        display: none
+        object-fit: cover
+        object-position: center
+        position: absolute
+        width: 100vw
+        height: 100vh
+
+@media (min-width: 1024px)
+    .presentation
+        width: 100%
+        .video
+            display: block
+    
+
+.presentationInner
+    min-height: 100vh
+    display: flex
+    flex-wrap: wrap
+    align-content: flex-end
+    position: relative
+    padding: 
+        bottom: 10vh
+    transition: all ease 0.5s
+
+.presentationHeader
+    border-bottom: solid 1px rgba(white, 0.5)
+    padding-right: 10vw
+    padding-bottom: 20px
+    img
+        width: 36px
+        margin-bottom: 12px
+        cursor: pointer
+    h1
+        margin: 0
+        font-size: 28px
+        line-height: 125%
+        font-weight: 600
+        letter-spacing: -0.02em
+
+@media (min-width: 768px)
+    .presentationHeader
+        padding-right: 30vw
+        padding-bottom: 28px
+        h1
+            font-size: 32px
+
+@media (min-width: 1024px)
+    .presentationHeader
+        padding-right: 40vw
+        // padding-bottom: 30px
+        h1
+            font-size: 36px
+
+@media (min-width: 1280px)
+    .presentationHeader
+        padding-right: 45vw
+        img
+            width: 40px
+            margin-bottom: 14px
+        h1
+            font-size: 40px
+    
+.presentationFooter
+    width: 100%
+    display: flex
+    justify-content: space-between
+    padding-top: 20px
+    p
+        margin: 0
+        font-size: 12px
+        text-transform: uppercase
+        letter-spacing: -0.01em
+
+@media (min-width: 768px)
+    .presentationFooter
+        padding-top: 26px
+
+@media (min-width: 1024px)
+    .presentationFooter
+        // padding-top: 30px
+        p
+            font-size: 14px

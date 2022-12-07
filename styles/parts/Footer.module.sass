@@ -1,0 +1,39 @@
+@import '../colors'
+    
+.mainFooter
+    background-color: $lightGreen
+    .mainFooterInner
+        padding:
+            top: 32px
+            bottom: 32px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        img.mainFooterLogo
+            width: 90px
+        .rrssLinks
+            display: flex
+            align-items: center
+            gap: 20px
+            a
+                img
+                    width: 24px
+
+@media (min-width: 768px)
+    .mainFooter
+        .mainFooterInner
+            img.mainFooterLogo
+                width: 100px
+            .rrssLinks
+                a
+                    img
+
+@media (min-width: 1280px)
+    .mainFooter
+        .mainFooterInner
+            img.mainFooterLogo
+                width: 110px
+            .rrssLinks
+                gap: 24px
+                a
+                    img

@@ -1,0 +1,74 @@
+@import ../colors
+
+.sellingArea
+    background-color: $lightGray
+
+.sellingAreaInner
+    text-align: center
+    padding: 
+        top: 66px
+        bottom: 64px
+    background-image: url(/images/back_texture_1.png)
+    background-position: bottom
+    background-size: contain
+    background-repeat: no-repeat
+    h2
+        margin: 
+            left: auto
+            right: auto
+        max-width: 18ch
+        color: $lightGreen
+        margin:
+            bottom: 16px
+    p
+        color: black
+        margin-bottom: 16px
+        max-width: 50ch
+        margin: 
+            left: auto
+            right: auto
+    a
+        display: inline-block
+        color: $lightGreen
+        background-color: transparent
+        border: solid 1px $lightGreen
+        border-radius: 14px
+        padding: 14px 20px
+        font-size: 13px
+        font-weight: 500
+        text-transform: uppercase
+        transition: all ease 0.3s
+        &:hover
+            background-color: $lightGreen
+            color: white
+
+@media (min-width: 768px)
+    .sellingAreaInner
+        padding: 
+            top: 78px
+            bottom: 72px
+        background-size: 70%
+        p
+            margin-bottom: 18px
+
+@media (min-width: 1024px)
+    .sellingAreaInner
+        padding: 
+            top: 90px
+            bottom: 80px
+        background-size: 70%
+        h2
+            margin-bottom: 20px
+        p
+            margin-bottom: 20px
+
+@media (min-width: 1280px)
+    .sellingAreaInner
+        padding: 
+            top: 95px
+            bottom: 85px
+        background-size: 70%
+        h2
+            margin-bottom: 20px
+        p
+            margin-bottom: 20px
