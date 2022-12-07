@@ -5,7 +5,7 @@ const Presentation = () => {
   return (
     <div
       className={styles.presentation}
-      style={{ backgroundImage: "url(/images/fake_background.jpg)" }}
+      // style={{ backgroundImage: "url(/images/fake_background.jpg)" }}
     >
       <video
         className={styles.video}
