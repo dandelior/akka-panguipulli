@@ -16,7 +16,7 @@ const Presentation = () => {
         muted
       ></video>
       <div
-        className={`centeredContent ${styles.presentationInner} animate__animated animate__fadeIn`}
+        className={`centeredContent ${styles.presentationInner} animate__animated animate__fadeIn animate__slow`}
       >
         <div className={styles.presentationHeader}>
           {/* <img src="/images/playButton.svg" alt="Click para abrir video" /> */}
