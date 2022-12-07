@@ -16,7 +16,6 @@ import "animate.css";
 
 export default function Home() {
   const [fixed, setFixed] = useState(false);
-  console.log(fixed);
 
   return (
     <div className={`outer ${fixed && "fixed"}`}>
