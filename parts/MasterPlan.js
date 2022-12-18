@@ -6,7 +6,7 @@ const MasterPlan = () => {
       <div className={styles.masterPlanInner}>
         <div className={styles.masterPlanHeader}>
           <h2>Master Plan</h2>
-          <p>VISTA VOLCÁN MOCHO CHOSHUENCO / LAGO PANGUIPULLI</p>
+          <p>VISTA HACIA VOLCÁN MOCHO CHOSHUENCO / LAGO PANGUIPULLI</p>
         </div>
       </div>
     </div>

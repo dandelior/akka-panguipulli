@@ -5,7 +5,6 @@ const Presentation = () => {
   return (
     <div
       className={styles.presentation}
-      // style={{ backgroundImage: "url(/images/fake_background.jpg)" }}
     >
       <video
         className={styles.video}
@@ -19,7 +18,6 @@ const Presentation = () => {
         className={`centeredContent ${styles.presentationInner} animate__animated animate__fadeIn animate__slow a-delay-05`}
       >
         <div className={styles.presentationHeader}>
-          {/* <img src="/images/playButton.svg" alt="Click para abrir video" /> */}
           <h1>
             Vive una experiencia única entre bosques y árboles nativos en el sur
             de Chile

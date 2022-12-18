@@ -8,7 +8,7 @@ const SellingArea = () => {
         <h2>Solo 25 terrenos de 5000 mts2 en venta</h2>
         <p>
           AKKA Panguipulli es un proyecto ubicado a 2 kms del pueblo. Vivirás en
-          un fundo de 13 hectareas con solo 25 exclusivos sitios, cada uno
+          un fundo de 13 hectáreas con solo 25 exclusivos sitios, cada uno
           respetando el paisaje, su geografía y la propia naturaleza. Un inmenso
           espacio natural, seguro y tranquilo en el sur de Chile.
         </p>
