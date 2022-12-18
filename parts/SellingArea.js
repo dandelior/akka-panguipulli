@@ -4,7 +4,7 @@ import styles from "../styles/parts/SellingArea.module.sass";
 const SellingArea = () => {
   return (
     <div className={styles.sellingArea}>
-      <div className={`${styles.sellingAreaInner} centeredContent`}>
+      <div className={`${styles.sellingAreaInner} centeredContent`} style={{ backgroundImage: 'url(./images/back_texture_1.png)' }}>
         <h2>Solo 25 terrenos de 5000 mts2 en venta</h2>
         <p>
           AKKA Panguipulli es un proyecto ubicado a 2 kms del pueblo. Vivirás en

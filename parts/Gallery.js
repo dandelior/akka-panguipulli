@@ -5,62 +5,62 @@ import styles from "../styles/parts/Gallery.module.sass";
 
 const images = [
   {
-    src: "/images/gal_1.jpg",
+    src: "./images/gal_1.jpg",
     id: 1,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_12.jpeg",
+    src: "./images/gal_12.jpeg",
     id: 2,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_6.jpeg",
+    src: "./images/gal_6.jpeg",
     id: 3,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_4.jpeg",
+    src: "./images/gal_4.jpeg",
     id: 4,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_5.jpeg",
+    src: "./images/gal_5.jpeg",
     id: 5,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_3.jpeg",
+    src: "./images/gal_3.jpeg",
     id: 6,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_7.jpeg",
+    src: "./images/gal_7.jpeg",
     id: 7,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_8.jpeg",
+    src: "./images/gal_8.jpeg",
     id: 8,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_9.jpeg",
+    src: "./images/gal_9.jpeg",
     id: 9,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_10.jpeg",
+    src: "./images/gal_10.jpeg",
     id: 10,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_11.jpeg",
+    src: "./images/gal_11.jpeg",
     id: 11,
     alt: "Foto de galería",
   },
   {
-    src: "/images/gal_2.jpeg",
+    src: "./images/gal_2.jpeg",
     id: 12,
     alt: "Foto de galería",
   },

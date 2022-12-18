@@ -4,12 +4,12 @@ export const Panoramic = () => {
   return (
     <div
       className={styles.panoramicSection}
-      style={{ backgroundImage: `url(/images/back_panoramikc.jpg)` }}
+      style={{ backgroundImage: `url(./images/back_panoramikc.jpg)` }}
     >
       <video
         className={styles.video}
         type="video/mp4"
-        src="/video/background_2.mp4"
+        src="./video/background_2.mp4"
         loop="true"
         autoplay="autoplay"
         muted

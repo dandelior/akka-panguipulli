@@ -5,11 +5,12 @@ const Presentation = () => {
   return (
     <div
       className={styles.presentation}
+      style={{ backgroundImage: 'url(./images/fake_background.jpg)' }}
     >
       <video
         className={styles.video}
         type="video/mp4"
-        src="/video/background_1.mp4"
+        src="./video/background_1.mp4"
         loop="true"
         autoplay="autoplay"
         muted

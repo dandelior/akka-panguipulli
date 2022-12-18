@@ -34,7 +34,7 @@ const Header = ({ setFixed }) => {
       <div className={styles.mainHeaderInner}>
         <Link href="/">
           <img
-            src="/images/logo.svg"
+            src="./images/logo.svg"
             alt="AKKA Panguipulli"
             className={styles.mainHeaderLogo}
           />
