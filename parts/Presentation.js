@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "../styles/parts/Presentation.module.sass";
+import React from 'react';
+import styles from '../styles/parts/Presentation.module.sass';
 
 const Presentation = () => {
   return (
@@ -10,7 +10,7 @@ const Presentation = () => {
       <video
         className={styles.video}
         type="video/mp4"
-        src="./video/background_1.mp4"
+        src="./video/background_1alt.mp4"
         loop="true"
         autoplay="autoplay"
         muted
