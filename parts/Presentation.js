@@ -10,7 +10,7 @@ const Presentation = () => {
       <video
         className={styles.video}
         type="video/mp4"
-        src="./video/background_1alt.mp4"
+        src="https://pub-0d50b478f04c48ad8d1957f9bd28e496.r2.dev/background_1alt.mp4"
         loop="true"
         autoplay="autoplay"
         muted
