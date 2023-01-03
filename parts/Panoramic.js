@@ -9,7 +9,7 @@ export const Panoramic = () => {
       <video
         className={styles.video}
         type="video/mp4"
-        src="/video/background_2.mp4"
+        src="https://pub-0d50b478f04c48ad8d1957f9bd28e496.r2.dev/background_2.mp4"
         loop={true}
         autoPlay="autoplay"
         muted
