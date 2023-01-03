@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -7,71 +7,71 @@ export default function Document() {
         <link
           rel="apple-touch-icon-precomposed"
           sizes="57x57"
-          href="/fav/apple-touch-icon-57x57.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-57x57.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="114x114"
-          href="/fav/apple-touch-icon-114x114.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-114x114.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="72x72"
-          href="/fav/apple-touch-icon-72x72.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-72x72.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="144x144"
-          href="/fav/apple-touch-icon-144x144.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-144x144.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="60x60"
-          href="/fav/apple-touch-icon-60x60.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-60x60.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="120x120"
-          href="/fav/apple-touch-icon-120x120.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-120x120.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="76x76"
-          href="/fav/apple-touch-icon-76x76.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-76x76.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="152x152"
-          href="/fav/apple-touch-icon-152x152.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/apple-touch-icon-152x152.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href="/fav/favicon-196x196.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/favicon-196x196.png`}
           sizes="196x196"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/fav/favicon-96x96.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/favicon-96x96.png`}
           sizes="96x96"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/fav/favicon-32x32.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/fav/favicon-16x16.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/favicon-16x16.png`}
           sizes="16x16"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/fav/favicon-128.png"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/fav/favicon-128.png`}
           sizes="128x128"
         />
         <meta name="application-name" content="&nbsp;" />
@@ -101,7 +101,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body style={{ position: "relative" }}>
+      <body style={{ position: 'relative' }}>
         <Main />
         <NextScript />
       </body>
