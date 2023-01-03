@@ -26,8 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: yarn build
-    - run: yarn export
+    - run: npm run build
+    - run: npm run export
     
     - name: Deploy to GH Pages 🚀
       uses: JamesIves/github-pages-deploy-action@v4
