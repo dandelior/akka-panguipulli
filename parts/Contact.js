@@ -3,7 +3,6 @@ import styles from '../styles/parts/Contact.module.sass';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('xbjejrad');
-  console.log(state);
 
   return (
     <div className={styles.contactSection} id="contact">
